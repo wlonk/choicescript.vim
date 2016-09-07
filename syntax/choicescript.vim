@@ -11,9 +11,9 @@ endif
 
 unlet! b:current_syntax
 
-syn match choicescriptComments '\*comment .*$'
+syn match choicescriptComments '\*comment.*$'
 
-syn match choicescriptOption '#'
+syn match choicescriptOption '#.*$'
 
 syn match choicescriptChoice '\*choice'
 syn match choicescriptChoice '\*fake_choice'
